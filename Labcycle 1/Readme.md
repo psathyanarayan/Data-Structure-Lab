@@ -1,4 +1,4 @@
-#LabCycle 1
+LabCycle 1
 1. Write a program to read two polynomials and store them in an array. Calculate the sum of the
 two polynomials and display the first polynomial, second polynomial and the resultant
 polynomial.
