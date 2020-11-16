@@ -37,17 +37,14 @@ void tuple(int *x, int n, int m)
     printf("(");
     for (i = 0; i < m; i++)
     {
-        printf("(");
+       
         for (j = 0; j < n; j++)
         {
-            if (j == n - 1)
-            {
-                printf("%d", *(x + i * n + j));
-            }
-            else
-                printf("%d ", *(x + i * n + j));
+             printf("(");
+            printf("%d %d %d",i,j,*(x+i*n+j));
+            printf(")");
         }
-        printf(")");
+        
     }
     printf(") \n");
 }
