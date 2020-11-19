@@ -129,13 +129,7 @@ void deleteLast(int i)
     }
 }
 
-void getFront()
-{
-}
 
-void getRear()
-{
-}
 
 int main()
 {
